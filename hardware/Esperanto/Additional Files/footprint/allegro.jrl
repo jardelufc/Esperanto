@@ -1,0 +1,102 @@
+\t (00:00:01) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:01) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/cap_elec_400mil.dra
+\t (00:00:02) Grids are drawn 160.000, 160.000 apart for enhanced viewability.
+\i (00:00:02) trapsize 2962
+\i (00:00:02) trapsize 3549
+\i (00:00:02) trapsize 3549
+\i (00:00:03) open 
+\i (00:00:06) fillin "rj-45.dra"
+\t (00:00:06) Opening existing drawing...
+\i (00:00:06) trapsize 777
+\d (00:00:06) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/rj-45.dra
+\i (00:00:09) show element 
+\i (00:00:10) pick grid 243.09 184.54
+\t (00:00:10) last pick:  240.00  180.00
+\i (00:00:12) pick grid 348.76 -174.42
+\t (00:00:12) last pick:  340.00  -180.00
+\i (00:00:13) pick grid 344.10 119.27
+\t (00:00:13) last pick:  340.00  120.00
+\i (00:00:14) pick grid 241.54 57.11
+\t (00:00:14) last pick:  240.00  60.00
+\i (00:00:14) pick grid 359.64 41.57
+\t (00:00:14) last pick:  360.00  40.00
+\i (00:00:15) pick grid 241.54 -14.37
+\t (00:00:15) last pick:  240.00  -20.00
+\i (00:00:16) pick grid 365.85 -67.20
+\t (00:00:16) last pick:  360.00  -60.00
+\i (00:00:16) pick grid 257.08 -107.60
+\t (00:00:16) last pick:  260.00  -100.00
+\i (00:00:18) done 
+\i (00:03:11) replace padstack 
+\i (00:03:13) pick grid 319.23 139.47
+\t (00:03:13) last pick:  320.00  140.00
+\i (00:03:14) setwindow form.mini
+\i (00:03:14) FORM mini newname_browse  
+\f (00:03:14) Select a padstack:
+\i (00:03:18) fillin "Pad100oval36mil"
+\i (00:03:20) FORM mini replace  
+\t (00:03:22) Pick To Complete Window.
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom points
+\i (00:03:22) pick 120.33 -255.23
+\i (00:03:22) pick 775.16 257.57
+\i (00:03:22) trapsize 307
+\i (00:03:24) show measure 
+\t (00:03:24) Performing DRC. Please wait...
+\t (00:03:24) No DRC errors detected.
+\i (00:03:25) pick grid 258.67 172.72
+\t (00:03:25) last pick:  250.00  175.00
+\i (00:03:27) pick grid 336.76 121.07
+\t (00:03:27) last pick:  325.00  125.00
+\i (00:03:56) setwindow text
+\i (00:03:56) close 
+\t (00:03:57) Pick To Complete Window.
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom points
+\i (00:03:57) pick -233.22 -584.80
+\i (00:03:57) pick 1076.45 440.80
+\i (00:03:57) trapsize 615
+\t (00:03:58) Pick To Complete Window.
+\i (00:03:58) zoom points
+\i (00:03:58) pick -527.61 -817.70
+\i (00:03:58) pick 1305.91 618.13
+\i (00:03:58) trapsize 861
+\i (00:04:06) show measure 
+\t (00:04:08) Pick To Complete Window.
+\i (00:04:09) zoom points
+\i (00:04:09) pick 61.18 -389.02
+\i (00:04:09) pick 892.19 261.75
+\i (00:04:09) trapsize 390
+\i (00:04:11) pick grid 343.65 -70.66
+\t (00:04:11) last pick:  350.00  -75.00
+\i (00:04:11) pick grid 342.87 30.00
+\t (00:04:11) last pick:  350.00  25.00
+\i (00:04:14) setwindow text
+\i (00:04:14) close 
+\i (00:04:15) setwindow pcb
+\i (00:04:15) done 
+\t (00:04:15) Pick To Complete Window.
+\i (00:04:15) zoom points
+\i (00:04:15) pick -605.98 -906.51
+\i (00:04:15) pick 1388.46 655.33
+\i (00:04:15) trapsize 936
+\i (00:04:17) save_as 
+\f (00:04:23) C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/rj-45/rj-45.dra: File Exists. Overwrite? 
+\i (00:04:24) fillin "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\rj-45\rj-45.dra"
+\i (00:04:24) cd "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\rj-45"
+\t (00:04:25) Symbol 'rj-45.psm' created.
+\i (00:04:29) padeditdb 
+\i (00:04:31) pick grid 352.85 104.76
+\t (00:04:31) last pick:  360.00  100.00
+\i (00:04:32) setwindow form.mini
+\i (00:04:32) FORM mini pad_stack_edit  
+\i (00:04:35) setwindow form.padedit
+\i (00:04:35) pse_save_as 
+\i (00:04:37) fillin "menu_cancel"
+\i (00:04:38) pse_exit
+\i (00:04:39) setwindow pcb
+\i (00:04:39) done 
+\i (00:09:10) exit 

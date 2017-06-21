@@ -1,0 +1,128 @@
+(ExpressProject "Projetos_PCB"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\projetos_pcb.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (LM78L12AC/TO92
+      (FullPartName "LM78L12AC/TO92.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5X2"
+      (FullPartName "HEADER 5X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON25
+      (FullPartName "CON25.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BC327
+      (FullPartName "BC327.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (BC337
+      (FullPartName "BC337.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MAX232A
+      (FullPartName "MAX232A.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM78L05AC/TO92
+      (FullPartName "LM78L05AC/TO92.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (D1N4002
+      (FullPartName "D1N4002.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON9
+      (FullPartName "CON9.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN PCB 6-R"
+      (FullPartName "CONN PCB 6-R.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 6"
+      (FullPartName "CONN SOCKET 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN JACK PWR"
+      (FullPartName "CONN JACK PWR.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_15.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Documents and Settings\Administrador\Meus documentos\Projetos\Projetos_PCB\Projetos_PCB\projetos_pcb.dsn")
+      (Path "Design Resources"
+         "C:\Documents and Settings\Administrador\Meus documentos\Projetos\Projetos_PCB\Projetos_PCB\projetos_pcb.dsn"
+         "Interface_RS232-MDB")
+      (Select "Design Resources"
+         "C:\Documents and Settings\Administrador\Meus documentos\Projetos\Projetos_PCB\Projetos_PCB\projetos_pcb.dsn"
+         "Interface_RS232-MDB" "Interface_RS232-MDB"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 1 1 186 771 -4 -30 14 506 104 537"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 110 1166 145 777")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\ADMINISTRADOR\MEUS DOCUMENTOS\PROJETOS\PROJETOS_PCB\PROJETOS_PCB\PROJETOS_PCB.DSN")
+      (Schematic "ADAPTER_DB25-IDC")
+      (Page "ADAPTER+DB25-IDC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 176 1232 232 864")
+        (Scroll "0 0")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\ADMINISTRADOR\MEUS DOCUMENTOS\PROJETOS\PROJETOS_PCB\PROJETOS_PCB\PROJETOS_PCB.DSN")
+      (Schematic "Interface_RS232-MDB")
+      (Page "Interface_RS232-MDB")))
+  (MPSSessionName "Administrador"))

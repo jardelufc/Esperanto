@@ -1,0 +1,268 @@
+\t (00:00:01) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:01) 
+
+\t (00:00:01) Opening existing drawing...
+\d (00:00:01) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprints/cap_elec_400mil.dra
+\t (00:00:01) Grids are drawn 160.000, 160.000 apart for enhanced viewability.
+\i (00:00:01) trapsize 3706
+\i (00:00:01) trapsize 4672
+\i (00:00:01) trapsize 4672
+\i (00:00:03) new 
+\i (00:00:22) newdrawfillin "cristal.dra" "Package Symbol"
+\t (00:00:22) Starting new drawing...
+\t (00:00:22) Grids are drawn 400.000, 400.000 apart for enhanced viewability.
+\i (00:00:22) trapsize 147059
+\i (00:00:22) trapsize 147059
+\i (00:00:48) add pin 
+\i (00:00:49) setwindow form.mini
+\i (00:00:49) FORM mini pad_browse  
+\f (00:00:49) Select a padstack:
+\i (00:00:57) fillin "Pad65cir37d"
+\t (00:00:57) Using 'PAD65CIR37D.pad'.
+\i (00:01:01) setwindow pcb
+\i (00:01:01) pick -150 0 
+\t (00:01:01) last pick:  -150.000  0.000
+\t (00:01:01) Using 'PAD65CIR37D.pad'.
+\i (00:01:05) pick 150 0 
+\t (00:01:05) last pick:  150.000  0.000
+\t (00:01:05) Using 'PAD65CIR37D.pad'.
+\t (00:01:06) Pick To Complete Window.
+\i (00:01:07) zoom points
+\i (00:01:07) pick -1260.541 -1289.953
+\i (00:01:07) pick 2073.928 1092.400
+\i (00:01:07) trapsize 20609
+\i (00:01:08) done 
+\t (00:01:08) Exiting from Add Pin.
+\i (00:01:10) script 
+\i (00:01:18) fillin "C:\Cadence\SPB_15.5\share\Color.scr"
+\i (00:01:20) replay C:/Cadence/SPB_15.5/share/Color.scr 
+\f (00:01:20) Select Script to Replay
+\i (00:01:20) version 14.2 
+\t (00:01:20) Script version: 14.2
+\i (00:01:20) setwindow pcb 
+\i (00:01:20) trapsize 1946 
+\i (00:01:20) drawing param 
+\i (00:01:20) setwindow \i (00:02:39) show measure 
+\i (00:02:40) pick grid 10 87
+\t (00:02:40) last pick:  0  75
+\i (00:02:41) pick grid -92 -89
+\t (00:02:41) last pick:  -100  -100
+\i (00:02:44) pick grid -103 -27
+\t (00:02:44) last pick:  -100  -25
+\i (00:02:46) pick grid 301 -55
+\t (00:02:46) last pick:  300  -50
+\i (00:04:59) setwindow text
+\i (00:04:59) close 
+\i (00:05:00) setwindow pcb
+\i (00:05:00) exit 
+ (00:01:20) FORM cvf_main class_list Geometry
+\i (00:01:20) setwindow form.cvf_main 
+\i (00:01:20) FORM cvf_main class_list Geometry 
+\i (00:01:20) FORM cvf_main color2 1 
+\i (00:01:20) FORM cvf_main board_geometry/outline/color 2 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main all_visible1 NO 
+\i (00:01:20) FORM cvf_main board_geometry/outline/visible YES 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main board_geometry/constraint_area/visible YES 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main board_geometry/constraint_area/visible NO 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main board_geometry/dimension/visible YES 
+\i (00:01:20) FORM cvf_main color1 0 
+\i (00:01:20) FORM cvf_main board_geometry/dimension/color 1 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main all_visible5 NO 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main package_geometry/silkscreen_top/visible YES 
+\i (00:01:20) FORM cvf_main package_geometry/silkscreen_bottom/visible YES 
+\i (00:01:20) FORM cvf_main package_geometry/silkscreen_top/color 1 
+\i (00:01:20) FORM cvf_main package_geometry/silkscreen_bottom/color 1 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main class_list Manufacturing 
+\i (00:01:20) FORM cvf_main all_visible1 NO 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main all_visible5 NO 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main class_list Stack-Up 
+\i (00:01:20) FORM cvf_main color7 6 
+\i (00:01:20) FORM cvf_main pin/top/color 7 
+\i (00:01:20) FORM cvf_main via_class/top/color 7 
+\i (00:01:20) FORM cvf_main drc_error_class/top/color 7 
+\i (00:01:20) FORM cvf_main etch/top/color 7 
+\i (00:01:20) FORM cvf_main anti_etch/top/color 7 
+\i (00:01:20) FORM cvf_main color4 3 
+\i (00:01:20) FORM cvf_main pin/bottom/color 4 
+\i (00:01:20) FORM cvf_main via_class/bottom/color 4 
+\i (00:01:20) FORM cvf_main drc_error_class/bottom/color 4 
+\i (00:01:20) FORM cvf_main etch/bottom/color 4 
+\i (00:01:20) FORM cvf_main anti_etch/bottom/color 4 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main all_visible1 NO 
+\i (00:01:20) FORM cvf_main pin/top/visible YES 
+\i (00:01:20) FORM cvf_main pin/bottom/visible YES 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main all_visible2 NO 
+\i (00:01:20) FORM cvf_main via_class/top/visible YES 
+\i (00:01:20) FORM cvf_main via_class/bottom/visible YES 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main all_visible3 NO 
+\i (00:01:20) FORM cvf_main drc_error_class/top/visible YES 
+\i (00:01:20) FORM cvf_main drc_error_class/bottom/visible YES 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main color16 15 
+\i (00:01:20) FORM cvf_main drc_error_class/top/color 16 
+\i (00:01:20) FORM cvf_main drc_error_class/bottom/color 16 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:20) FORM cvf_main class_list Components 
+\i (00:01:20) FORM cvf_main all_visible1 NO 
+\i (00:01:20) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main color1 0 
+\i (00:01:21) FORM cvf_main device_type/silkscreen_top/color 1 
+\i (00:01:21) FORM cvf_main device_type/silkscreen_bottom/color 1 
+\i (00:01:21) FORM cvf_main ref_des/silkscreen_top/color 1 
+\i (00:01:21) FORM cvf_main ref_des/silkscreen_bottom/color 1 
+\i (00:01:21) FORM cvf_main tolerance/silkscreen_top/color 1 
+\i (00:01:21) FORM cvf_main tolerance/silkscreen_bottom/color 1 
+\i (00:01:21) FORM cvf_main user_part_number/silkscreen_top/color 1 
+\i (00:01:21) FORM cvf_main user_part_number/silkscreen_bottom/color 1 
+\i (00:01:21) FORM cvf_main all_visible2 NO 
+\i (00:01:21) FORM cvf_main all_visible4 NO 
+\i (00:01:21) FORM cvf_main all_visible5 NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main ref_des/display_top/visible NO 
+\i (00:01:21) FORM cvf_main ref_des/display_bottom/visible NO 
+\i (00:01:21) FORM cvf_main ref_des/assembly_bottom/visible NO 
+\i (00:01:21) FORM cvf_main ref_des/assembly_top/visible NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main class_list Areas 
+\i (00:01:21) FORM cvf_main all_visible1 NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main all_visible2 NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main all_visible3 NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main all_visible4 NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main all_visible5 NO 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main color18 17 
+\i (00:01:21) FORM cvf_main route_keepin/all/color 18 
+\i (00:01:21) FORM cvf_main all_visible5 YES 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main class_list Analysis 
+\i (00:01:21) FORM cvf_main color12 11 
+\i (00:01:21) FORM cvf_main analysis/low_isocontour/color 12 
+\i (00:01:21) FORM cvf_main analysis/medium1_isocontour/color 12 
+\i (00:01:21) FORM cvf_main analysis/medium2_isocontour/color 12 
+\i (00:01:21) FORM cvf_main analysis/medium3_isocontour/color 12 
+\i (00:01:21) FORM cvf_main analysis/high_isocontour/color 12 
+\i (00:01:21) FORM cvf_main analysis/pcb_temperature/color 12 
+\i (00:01:21) FORM cvf_main color6 5 
+\i (00:01:21) FORM cvf_main analysis/low_isocontour/color 6 
+\i (00:01:21) FORM cvf_main analysis/medium1_isocontour/color 6 
+\i (00:01:21) FORM cvf_main analysis/medium2_isocontour/color 6 
+\i (00:01:21) FORM cvf_main analysis/medium3_isocontour/color 6 
+\i (00:01:21) FORM cvf_main analysis/high_isocontour/color 6 
+\i (00:01:21) FORM cvf_main analysis/pcb_temperature/color 6 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main class_list Geometry 
+\i (00:01:21) FORM cvf_main class_list Analysis 
+\i (00:01:21) FORM cvf_main class_list Display 
+\i (00:01:21) FORM cvf_main color9 8 
+\i (00:01:21) FORM cvf_main ratsnest_col 9 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main color8 7 
+\i (00:01:21) FORM cvf_main hilite_col 8 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main ok 
+\i (00:01:21) setwindow form.mini 
+\i (00:01:21) FORM mini class ETCH 
+\i (00:01:21) setwindow pcb 
+\i (00:01:21) color 
+\i (00:01:21) FORM cvf_main class_list Stack-Up
+\i (00:01:21) setwindow form.cvf_main 
+\i (00:01:21) FORM cvf_main class_list Stack-Up 
+\i (00:01:21) FORM cvf_main color11 10 
+\i (00:01:21) FORM cvf_main pin/top/color 11 
+\i (00:01:21) FORM cvf_main pin/bottom/color 11 
+\i (00:01:21) FORM cvf_main via_class/top/color 11 
+\i (00:01:21) FORM cvf_main via_class/bottom/color 11 
+\i (00:01:21) FORM cvf_main apply 
+\i (00:01:21) FORM cvf_main ok 
+\i (00:01:21) trapsize 20609
+\t (00:01:22) Pick To Complete Window.
+\i (00:01:22) zoom points
+\i (00:01:22) pick -679.379 -576.896
+\i (00:01:22) pick 722.483 424.682
+\i (00:01:22) trapsize 8664
+\i (00:01:41) add line 
+\i (00:01:43) setwindow form.mini
+\i (00:01:43) FORM mini class PACKAGE GEOMETRY 
+\i (00:01:45) FORM mini subclass SILKSCREEN_TOP 
+\i (00:01:47) FORM mini line_width 5.000 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) pick 90 200 
+\t (00:01:52) last pick:  90.000  200.000
+\i (00:02:00) pick -90 200 
+\t (00:02:00) last pick:  -90.000  200.000
+\i (00:02:06) oops 
+\t (00:02:06) last pick:  90.000  200.000
+\i (00:02:08) oops 
+\i (00:02:11) pick 200 90 
+\t (00:02:11) last pick:  200.000  90.000
+\i (00:02:16) pick 200 -90 
+\t (00:02:16) last pick:  200.000  -90.000
+\i (00:02:22) pick -200 -90 
+\t (00:02:22) last pick:  -200.000  -90.000
+\i (00:02:27) pick -200 90 
+\t (00:02:27) last pick:  -200.000  90.000
+\i (00:02:31) pick 200 90 
+\t (00:02:31) last pick:  200.000  90.000
+\i (00:02:33) done 
+\i (00:02:34) label refdes 
+\t (00:02:34) Pick text location.
+\i (00:02:47) label refdes 
+\t (00:02:47) Pick text location.
+\i (00:02:49) setwindow form.mini
+\i (00:02:49) FORM mini subclass SILKSCREEN_TOP 
+\i (00:02:51) FORM mini text_block 3 
+\i (00:02:51) setwindow pcb
+\i (00:02:51) pick grid -188.987 156.093
+\t (00:02:51) last pick:  -200.000  200.000
+\t (00:02:51) Enter text string.
+\i (00:02:55) setwindow pcb
+\i (00:02:55) pick -200.000 200.000
+\i (00:02:56) oops 
+\t (00:02:56) Pick text location.
+\i (00:02:58) label refdes 
+\t (00:02:58) Pick text location.
+\i (00:03:00) pick grid -195.918 161.291
+\t (00:03:00) last pick:  -200.000  200.000
+\t (00:03:00) Enter text string.
+\i (00:03:02) setwindow pcb
+\i (00:03:02) pick -200.000 200.000
+\i (00:03:04) done 
+\i (00:03:06) save_as 
+\i (00:03:08) fillin "cristal.dra"
+\t (00:03:08) Symbol 'cristal.psm' created.
+\i (00:03:12) padeditdb 
+\i (00:03:13) pick grid 155.847 -10.259
+\t (00:03:13) last pick:  200.000  0.000
+\i (00:03:14) setwindow form.mini
+\i (00:03:14) FORM mini pad_stack_edit  
+\i (00:03:16) setwindow form.padedit
+\i (00:03:16) pse_save_as 
+\i (00:03:26) fillin "PAD65CIR37D.pad"
+\i (00:03:27) pse_exit
+\i (00:03:28) setwindow pcb
+\i (00:03:28) done 
+\i (00:03:30) show element 
+\i (00:03:31) pick grid -164.727 15.733
+\t (00:03:31) last pick:  -200.000  0.000
+\i (00:03:32) pick grid 162.779 12.268
+\t (00:03:32) last pick:  200.000  0.000
+\i (00:03:33) setwindow text
+\i (00:03:33) close 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) exit 

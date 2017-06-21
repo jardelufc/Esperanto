@@ -1,0 +1,71 @@
+\t (00:00:03) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:03) 
+
+\t (00:00:03) Starting new drawing...
+\i (00:00:03) trapsize 823
+\i (00:00:03) trapsize 1019
+\i (00:00:03) trapsize 1019
+\i (00:00:46) open 
+\i (00:00:54) fillin "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\ind_300\ind_300.dra"
+\i (00:00:54) cd "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\ind_300"
+\t (00:00:54) Opening existing drawing...
+\i (00:00:54) trapsize 434
+\i (00:00:54) trapsize 520
+\i (00:00:54) trapsize 520
+\d (00:00:54) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/ind_300/ind_300.dra
+\i (00:01:30) trapsize 434
+\i (00:01:30) trapsize 520
+\i (00:01:34) open 
+\i (00:01:47) fillin "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\indutor_dip\indutor_dip.dra"
+\i (00:01:47) cd "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\indutor_dip"
+\t (00:01:47) Opening existing drawing...
+\i (00:01:47) trapsize 439
+\d (00:01:47) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/indutor_dip/indutor_dip.dra
+\i (00:02:56) delete 
+\i (00:02:57) pick grid 30.11 73.15
+\t (00:02:57) last pick:  40.00  80.00
+\t (00:02:57) Line "Ref Des/Silkscreen_Top"
+\i (00:02:58) done 
+\i (00:03:00) add line 
+\i (00:03:06) pick -200 -100 
+\t (00:03:06) last pick:  -200.00  -100.00
+\i (00:03:10) pick -200 100 
+\t (00:03:10) last pick:  -200.00  100.00
+\i (00:03:15) pick 200 100 
+\t (00:03:15) last pick:  200.00  100.00
+\i (00:03:22) pick 200 -100 
+\t (00:03:22) last pick:  200.00  -100.00
+\i (00:03:26) pick -200 -100 
+\t (00:03:26) last pick:  -200.00  -100.00
+\i (00:03:28) done 
+\i (00:03:29) move 
+\t (00:03:29) Select element(s) to move.
+\i (00:03:29) pick grid -164.65 138.07
+\t (00:03:29) last pick:  -160.00  140.00
+\t (00:03:29) No element found
+\i (00:03:30) pick grid -151.49 140.71
+\t (00:03:30) last pick:  -160.00  140.00
+\t (00:03:30) last pick:  -160.00  100.00
+\t (00:03:30) Pick new location for element(s).
+\i (00:03:31) pick grid -187.46 129.30
+\t (00:03:31) last pick:  -180.00  120.00
+\i (00:03:36) move 
+\t (00:03:36) Select element(s) to move.
+\i (00:03:37) pick grid -81.31 -18.96
+\t (00:03:37) last pick:  -80.00  -20.00
+\t (00:03:37) last pick:  -75.00  0.00
+\t (00:03:37) Pick new location for element(s).
+\i (00:03:45) pick -100 0 
+\t (00:03:45) last pick:  -100.00  0.00
+\i (00:03:46) pick grid 102.05 -8.44
+\t (00:03:46) last pick:  100.00  0.00
+\t (00:03:46) last pick:  75.00  0.00
+\t (00:03:46) Pick new location for element(s).
+\i (00:03:49) pick 100 0 
+\t (00:03:49) last pick:  100.00  0.00
+\i (00:03:51) done 
+\i (00:03:53) save_as 
+\f (00:03:56) C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/indutor_dip/indutor_dip.dra: File Exists. Overwrite? 
+\i (00:03:57) fillin "indutor_dip.dra"
+\t (00:03:57) Symbol 'indutor_dip.psm' created.
+\i (00:03:59) exit 

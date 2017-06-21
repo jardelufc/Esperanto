@@ -1,0 +1,108 @@
+\t (00:00:02) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:02) 
+
+\t (00:00:02) Starting new drawing...
+\t (00:00:02) Grids are drawn 400.0, 400.0 apart for enhanced viewability.
+\i (00:00:02) trapsize 1029
+\i (00:00:02) trapsize 1298
+\i (00:00:02) trapsize 1298
+\i (00:00:05) open 
+\i (00:00:59) fillin "C:\Documents and Settings\usuario\Meus documentos\footprints\Footprint_Falcao\lan_2usb.dra"
+\i (00:00:59) cd "C:\Documents and Settings\usuario\Meus documentos\footprints\Footprint_Falcao"
+\t (00:00:59) Opening existing drawing...
+\t (00:00:59) Grids are drawn 10.1600, 10.1600 apart for enhanced viewability.
+\i (00:00:59) trapsize 2162
+\i (00:00:59) trapsize 2726
+\i (00:00:59) trapsize 2726
+\d (00:00:59) Database opened: C:/Documents and Settings/usuario/Meus documentos/footprints/Footprint_Falcao/lan_2usb.dra
+\i (00:01:01) roam start
+\i (00:01:01) roam x -16
+\i (00:01:01) roam y 16
+\i (00:01:01) roam x -16
+\i (00:01:01) roam x -32
+\i (00:01:01) roam y 16
+\i (00:01:01) roam x -32
+\i (00:01:01) roam x -32
+\i (00:01:01) roam x -32
+\i (00:01:01) roam x -16
+\i (00:01:01) roam y 16
+\i (00:01:01) roam x -16
+\i (00:01:01) roam x -16
+\i (00:01:01) roam x 48
+\i (00:01:01) roam y -32
+\i (00:01:01) roam x 48
+\i (00:01:01) roam y -32
+\i (00:01:01) roam x 16
+\i (00:01:01) roam y -16
+\i (00:01:02) roam y -16
+\i (00:01:02) roam x 16
+\i (00:01:02) roam y -16
+\i (00:01:02) roam x 16
+\i (00:01:02) roam y -16
+\i (00:01:02) roam y 16
+\i (00:01:03) roam end
+\t (00:01:04) Pick To Complete Window.
+\i (00:01:04) zoom points
+\i (00:01:04) pick -10.9505 -0.4270
+\i (00:01:04) pick 9.0606 13.8701
+\i (00:01:04) trapsize 1237
+\i (00:01:07) show element 
+\i (00:01:08) pick grid 4.2124 9.1951
+\t (00:01:08) last pick:  5.0800  10.1600
+\i (00:01:10) setwindow text
+\i (00:01:10) close 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) pick grid -4.3708 6.8453
+\t (00:01:11) last pick:  -5.0800  7.6200
+\i (00:01:14) setwindow text
+\i (00:01:14) close 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) pick grid -6.0529 9.8135
+\t (00:01:15) last pick:  -5.0800  10.1600
+\i (00:01:19) pick grid -4.9892 7.0679
+\t (00:01:19) last pick:  -5.0800  7.6200
+\i (00:01:20) pick grid -5.6323 8.5768
+\t (00:01:20) last pick:  -5.0800  7.6200
+\t (00:01:20) No element found
+\i (00:01:21) pick grid -5.6323 9.3188
+\t (00:01:21) last pick:  -5.0800  10.1600
+\i (00:01:22) pick grid -1.6004 6.9442
+\t (00:01:22) last pick:  -2.5400  7.6200
+\i (00:01:23) pick grid -3.1093 9.5662
+\t (00:01:23) last pick:  -2.5400  10.1600
+\i (00:01:24) pick grid 3.3714 6.8453
+\t (00:01:24) last pick:  2.5400  7.6200
+\i (00:01:24) pick grid 5.1029 6.9442
+\t (00:01:24) last pick:  5.0800  7.6200
+\i (00:01:25) pick grid 4.2619 9.5167
+\t (00:01:25) last pick:  5.0800  10.1600
+\i (00:01:27) pick grid 2.9014 6.8947
+\t (00:01:27) last pick:  2.5400  7.6200
+\i (00:01:28) pick grid 1.8625 9.3683
+\t (00:01:28) last pick:  2.5400  10.1600
+\i (00:01:29) pick grid 0.6010 6.9442
+\t (00:01:29) last pick:  0.0000  7.6200
+\i (00:01:29) pick grid -0.6852 9.3436
+\t (00:01:29) last pick:  0.0000  10.1600
+\i (00:01:30) pick grid -1.6499 6.9195
+\t (00:01:30) last pick:  -2.5400  7.6200
+\i (00:01:31) pick grid -2.9362 9.5909
+\t (00:01:31) last pick:  -2.5400  10.1600
+\i (00:01:32) pick grid -4.6182 7.2163
+\t (00:01:32) last pick:  -5.0800  7.6200
+\i (00:01:33) pick grid -5.7808 9.5662
+\t (00:01:33) last pick:  -5.0800  10.1600
+\i (00:01:35) done 
+\i (00:02:31) open 
+\i (00:02:46) fillin "menu_cancel"
+\t (00:02:50) Pick To Complete Window.
+\i (00:02:50) zoom points
+\i (00:02:50) pick -25.4000 -25.4000
+\i (00:02:50) pick 114.6779 74.6804
+\i (00:02:50) trapsize 8657
+\t (00:02:54) Pick To Complete Window.
+\i (00:02:56) zoom points
+\i (00:02:56) pick -15.0110 -16.7425
+\i (00:02:56) pick 29.8235 15.2901
+\i (00:02:56) trapsize 2771
+\i (00:03:00) exit 

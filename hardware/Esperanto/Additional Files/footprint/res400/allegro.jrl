@@ -1,0 +1,185 @@
+\t (00:00:02) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:02) 
+
+\t (00:00:02) Starting new drawing...
+\t (00:00:02) Grids are drawn 400.0, 400.0 apart for enhanced viewability.
+\i (00:00:02) trapsize 1108
+\i (00:00:02) trapsize 1491
+\i (00:00:02) trapsize 1491
+\i (00:00:06) trapsize 861
+\i (00:00:06) trapsize 1019
+\i (00:00:06) open 
+\i (00:00:13) fillin "C:\Projetos\Projetos_PCB\Projeto_Esperanto\PCB\esperanto_versao2.brd"
+\i (00:00:13) cd "C:\Projetos\Projetos_PCB\Projeto_Esperanto\PCB"
+\t (00:00:13) Opening existing drawing...
+\i (00:00:13) trapsize 2002
+\d (00:00:13) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/PCB/esperanto_versao2.brd
+\i (00:00:16) setwindow form.vf_vis
+\i (00:00:16) FORM vf_vis 1 etch_colorvisible 1 
+\i (00:00:17) FORM vf_vis 2 etch_colorvisible 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) padeditdb 
+\i (00:00:26) pick grid 10836.66 11173.04
+\t (00:00:26) last pick:  10835.00  11175.00
+\i (00:00:28) setwindow form.mini
+\i (00:00:28) FORM mini pad_stack_edit  
+\i (00:00:32) setwindow form.padedit
+\i (00:00:32) FORM padedit layers  
+\i (00:00:41) FORM padedit grid row soldermask_top 
+\i (00:00:51) FORM padedit width 115.00 
+\i (00:00:54) FORM padedit height 60.00 
+\i (00:00:57) FORM padedit width 110.00 
+\i (00:00:58) FORM padedit grid row soldermask_bottom 
+\i (00:01:01) FORM padedit width 11000 
+\i (00:01:02) FORM padedit height 60 
+\i (00:01:11) FORM padedit width 110.00 
+\i (00:01:12) FORM padedit crossbox YES 
+\i (00:01:17) pse_update 
+\i (00:01:18) pse_exit
+\t (00:01:21) Pick To Complete Window.
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom points
+\i (00:01:22) pick 10067.76 9298.86
+\i (00:01:22) pick 13545.20 12022.04
+\i (00:01:22) trapsize 1633
+\i (00:01:26) artwork 
+\i (00:01:31) setwindow form.film_control
+\i (00:01:31) FORM film_control filmtree popup Copy mask_top 
+\i (00:01:44) FORM film_control filmtree RENAME= mask_bottom 
+\i (00:01:47) FORM film_control filmtree popup Add PIN/SOLDERMASK_TOP mask_bottom 
+\i (00:01:58) setwindow form.scl_browser
+\i (00:01:58) FORM scl_browser treelist 'MULTISEL YES' SOLDERMASK_BOTTOM PIN 
+\i (00:01:58) FORM scl_browser treelist  SOLDERMASK_BOTTOM PIN 
+\i (00:02:00) FORM scl_browser done  
+\i (00:02:06) setwindow form.film_control
+\i (00:02:06) FORM film_control filmtree popup Cut PIN/SOLDERMASK_TOP mask_bottom 
+\i (00:02:08) FORM film_control filmtree  mask_bottom 
+\i (00:02:10) FORM film_control select_all  
+\i (00:02:11) FORM film_control create  
+\t (00:02:11) Checking db records
+\t (00:02:11)     Checked 100 percent
+\t (00:02:11) Done dbdoctor.
+\t (00:02:11) Starting Create artwork films...
+\t (00:02:13) Plot generated.
+\i (00:02:18) FORM film_control viewlog  
+\i (00:02:39) setwindow text
+\i (00:02:39) close 
+\i (00:02:41) setwindow form.film_control
+\i (00:02:41) FORM film_control ok  
+\t (00:02:43) Pick To Complete Window.
+\i (00:02:43) setwindow pcb
+\i (00:02:43) zoom points
+\i (00:02:43) pick 6763.38 3836.18
+\i (00:02:43) pick 25541.55 18541.34
+\i (00:02:43) trapsize 8816
+\t (00:02:45) Pick To Complete Window.
+\i (00:02:46) zoom points
+\i (00:02:46) pick 10219.27 9742.93
+\i (00:02:46) pick 10894.74 10271.89
+\i (00:02:46) trapsize 317
+\t (00:02:46) Pick To Complete Window.
+\i (00:02:46) zoom points
+\i (00:02:46) pick 9704.90 9156.13
+\i (00:02:46) pick 12812.06 11589.34
+\i (00:02:46) trapsize 1459
+\t (00:02:47) Pick To Complete Window.
+\i (00:02:47) zoom points
+\i (00:02:47) pick 6968.27 7113.85
+\i (00:02:47) pick 16289.75 14413.49
+\i (00:02:47) trapsize 4376
+\i (00:02:49) setwindow form.vf_vis
+\i (00:02:49) FORM vf_vis 1 etch_colorvisible 1 
+\i (00:02:50) FORM vf_vis 2 etch_colorvisible 1 
+\i (00:02:51) FORM vf_vis all_drc_visible YES 
+\i (00:02:51) FORM vf_vis all_all_visible YES 
+\i (00:02:52) FORM vf_vis all_all_visible_pln NO 
+\t (00:02:53) Pick To Complete Window.
+\i (00:02:53) setwindow pcb
+\i (00:02:53) zoom points
+\i (00:02:53) pick 9611.54 8768.08
+\i (00:02:53) pick 15401.14 13301.91
+\i (00:02:53) trapsize 2718
+\i (00:03:03) color 
+\i (00:03:03) setwindow form.cvf_main
+\i (00:03:03) FORM cvf_main class_list Geometry
+\i (00:03:05) FORM cvf_main board_geometry/outline/visible YES 
+\i (00:03:06) FORM cvf_main board_geometry/dimension/visible YES 
+\i (00:03:07) FORM cvf_main package_geometry/silkscreen_top/visible YES 
+\i (00:03:08) FORM cvf_main package_geometry/silkscreen_bottom/visible YES 
+\i (00:03:12) FORM cvf_main class_list Components 
+\i (00:03:14) FORM cvf_main ref_des/silkscreen_top/visible YES 
+\i (00:03:14) FORM cvf_main ref_des/silkscreen_bottom/visible YES 
+\i (00:03:15) FORM cvf_main apply  
+\i (00:03:16) FORM cvf_main ok  
+\t (00:03:18) Pick To Complete Window.
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom points
+\i (00:03:19) pick 9910.53 9284.52
+\i (00:03:19) pick 13430.11 12040.70
+\i (00:03:19) trapsize 1652
+\i (00:03:21) setwindow form.vf_vis
+\i (00:03:21) FORM vf_vis 1 etch_colorvisible 0 
+\i (00:03:21) FORM vf_vis 2 etch_colorvisible 0 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) color 
+\i (00:03:25) setwindow form.cvf_main
+\i (00:03:25) FORM cvf_main class_list Geometry
+\i (00:03:31) FORM cvf_main class_list Stack-Up 
+\i (00:03:33) FORM cvf_main pin/soldermask_top/visible NO 
+\i (00:03:36) FORM cvf_main class_list Components 
+\i (00:03:38) FORM cvf_main class_list Manufacturing 
+\i (00:03:45) FORM cvf_main ok  
+\t (00:05:03) Pick To Complete Window.
+\i (00:05:04) setwindow pcb
+\i (00:05:04) zoom points
+\i (00:05:04) pick 11367.93 10054.53
+\i (00:05:04) pick 12211.96 10715.49
+\i (00:05:04) trapsize 396
+\t (00:05:06) Pick To Complete Window.
+\i (00:05:06) zoom points
+\i (00:05:06) pick 10845.82 9343.33
+\i (00:05:06) pick 13209.10 11194.01
+\i (00:05:06) trapsize 1110
+\i (00:05:06) roam start
+\i (00:05:06) roam end
+\t (00:05:07) Pick To Complete Window.
+\i (00:05:07) zoom points
+\i (00:05:07) pick 9975.96 8389.14
+\i (00:05:07) pick 14702.52 12090.50
+\i (00:05:07) trapsize 2219
+\i (00:07:05) add text 
+\t (00:07:05) Pick text location.
+\i (00:07:13) setwindow form.mini
+\i (00:07:13) FORM mini text_block 5 
+\i (00:07:28) setwindow pcb
+\i (00:07:28) pick grid 10654.99 9054.85
+\t (00:07:28) last pick:  10655.00  9055.00
+\t (00:07:28) Enter text string.
+\i (00:07:34) setwindow pcb
+\i (00:07:34) pick grid 10175.67 9143.61
+\t (00:07:34) last pick:  10175.00  9145.00
+\t (00:07:34) Enter text string.
+\i (00:07:35) setwindow pcb
+\i (00:07:35) pick grid 10140.17 9214.62
+\t (00:07:35) last pick:  10140.00  9215.00
+\t (00:07:35) Enter text string.
+\i (00:07:47) setwindow pcb
+\i (00:07:47) next 
+\i (00:07:49) cancel 
+\t (00:07:51) Pick To Complete Window.
+\i (00:07:55) zoom points
+\i (00:07:55) pick 10051.41 9498.66
+\i (00:07:55) pick 13282.33 12028.78
+\i (00:07:55) trapsize 1517
+\i (00:07:57) roam start
+\i (00:07:57) roam x -16
+\i (00:07:57) roam x -16
+\i (00:07:57) roam x 16
+\i (00:07:57) roam x 16
+\i (00:07:58) roam x 16
+\i (00:07:58) roam x 16
+\i (00:07:58) roam end
+\i (00:08:01) save 
+\f (00:08:01) C:/Projetos/Projetos_PCB/Projeto_Esperanto/PCB/esperanto_versao2.brd: File Exists. Overwrite? 
+\i (00:08:02) fillin yes 
+\i (00:08:12) exit 

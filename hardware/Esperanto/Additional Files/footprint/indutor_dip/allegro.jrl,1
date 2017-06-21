@@ -1,0 +1,45 @@
+\t (00:00:01) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:01) 
+
+\t (00:00:02) Starting new drawing...
+\i (00:00:02) trapsize 823
+\i (00:00:02) trapsize 1019
+\i (00:00:02) trapsize 1019
+\i (00:00:05) open 
+\i (00:00:13) fillin "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\rj-45\rj-45.dra"
+\i (00:00:13) cd "C:\Projetos\Projetos_PCB\Projeto_Esperanto\footprint\rj-45"
+\t (00:00:13) Opening existing drawing...
+\t (00:00:13) Grids are drawn 80.00, 80.00 apart for enhanced viewability.
+\i (00:00:13) trapsize 782
+\i (00:00:13) trapsize 936
+\i (00:00:13) trapsize 936
+\d (00:00:13) Database opened: C:/Projetos/Projetos_PCB/Projeto_Esperanto/footprint/rj-45/rj-45.dra
+\t (00:00:15) Pick To Complete Window.
+\i (00:00:16) zoom points
+\i (00:00:16) pick -486.13 -460.80
+\i (00:00:16) pick 611.28 398.58
+\i (00:00:16) trapsize 515
+\i (00:00:26) drawing param 
+\i (00:00:27) setwindow form.drawing
+\i (00:00:27) FORM drawing cancel  
+\i (00:00:29) setwindow pcb
+\i (00:00:29) define grid 
+\i (00:00:32) setwindow form.grid
+\i (00:00:32) FORM grid non_etch non_etch_x_grids 5.00 
+\i (00:00:35) FORM grid non_etch non_etch_y_grids 5.00 
+\i (00:00:37) FORM grid done  
+\t (00:00:38) Pick To Complete Window.
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom points
+\i (00:00:40) pick -186.27 -346.42
+\i (00:00:40) pick 661.13 317.18
+\i (00:00:40) trapsize 398
+\i (00:00:41) move 
+\t (00:00:41) Select element(s) to move.
+\i (00:00:43) pick grid -43.84 204.19
+\t (00:00:43) last pick:  -45.00  205.00
+\t (00:00:43) last pick:  -20.00  220.00
+\t (00:00:43) Pick new location for element(s).
+\i (00:00:57) pick grid -23.16 216.13
+\t (00:00:57) last pick:  -25.00  215.00
+\i (00:00:58) done 
